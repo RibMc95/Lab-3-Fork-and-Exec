@@ -2,61 +2,61 @@
 
 ## Completed Challenges
 
-###  Challenge 1 - Single fork() lifecycle
+### Challenge 1 - Single fork() lifecycle
 
 - **Program:** `ch1_single_fork.c`
 - **Description:** Fork once, child prints PID/PPID, sleeps 2 sec, exits with code 7. Parent waits and reports exit status.
 - **Acceptance:** Parent prints "child X exited with status 7" ✓
 
-###  Challenge 2 - Multiple children in a loop
+### Challenge 2 - Multiple children in a loop
 
 - **Program:** `ch2_multi_child.c`
 - **Description:** Parent creates N children (from CLI arg), each exits with status = index+1. Parent waits for all and reports exit codes.
 - **Acceptance:** Parent collects N children and reports each WEXITSTATUS ✓
 
-###  Challenge 3 - execlp() to run ls -la
+### Challenge 3 - execlp() to run ls -la
 
 - **Program:** `ch3_exec_ls.c`
 - **Description:** Fork; child uses `execlp("ls", "ls", "-la", NULL)` to list directory; parent waits.
 - **Acceptance:** Screen shows `ls -la` output; parent prints final message ✓
 
-###  Challenge 4 - Exec an internal helper program
+### Challenge 4 - Exec an internal helper program
 
 - **Programs:** `worker.c`, `ch4_exec_worker.c`
 - **Description:** Create worker binary that prints args and environment variable MYVAR. Parent forks and execs worker with custom environment.
 - **Acceptance:** Worker prints args and MYVAR=hello ✓
 
-###  Challenge 5 - Show execv vs execl
+### Challenge 5 - Show execv vs execl
 
 - **Program:** `ch5_exec_examples.c`
 - **Description:** Two child forks: Child A uses `execl()`, Child B uses `execv()` to run same command.
 - **Acceptance:** Both children print "one two" ✓
 
-###  Challenge 6 - Parent-to-child pipe (producer/consumer)
+### Challenge 6 - Parent-to-child pipe (producer/consumer)
 
 - **Program:** `ch6_pipe_sum.c`
 - **Description:** Parent writes numbers 1-10 to pipe; child reads and sums them.
 - **Acceptance:** Child prints "Sum = 55" ✓
 
-###  Challenge 7 - Build a pipeline (ls | grep pattern)
+### Challenge 7 - Build a pipeline (ls | grep pattern)
 
 - **Program:** `ch7_pipeline.c`
 - **Description:** Implement `ls | grep <pattern>` manually with two forks and one pipe. Pattern from command line.
 - **Acceptance:** Output matches `ls | grep pattern` ✓
 
-###  Challenge 8 - waitpid() with WNOHANG
+### Challenge 8 - waitpid() with WNOHANG
 
 - **Program:** `ch8_wait_nonblock.c`
 - **Description:** Spawn 3 children sleeping 1, 2, 3 seconds. Parent polls with `waitpid(-1, &status, WNOHANG)` non-blocking.
 - **Acceptance:** Parent prints children completion in ascending order (1s, 2s, 3s) ✓
 
-###  Challenge 9 - Create & observe a zombie process
+### Challenge 9 - Create & observe a zombie process
 
 - **Program:** `ch9_zombie.c`
 - **Description:** Fork child that exits immediately; parent sleeps 10 seconds before calling wait(). Demonstrates zombie state.
 - **Acceptance:** Child visible as `<defunct>` in `ps aux` during sleep window ✓
 
-###  Challenge 10 - Parallel worker pool (limit concurrency)
+### Challenge 10 - Parallel worker pool (limit concurrency)
 
 - **Program:** `ch10_pool.c`
 - **Description:** Spawn up to M worker children at once. As children finish, spawn new ones for remaining tasks. Uses waitpid() to detect finished children.
@@ -93,3 +93,28 @@ cmake --build .
 ## Known Issues
 
 - None identified. All challenges complete and working as expected.
+
+## Submission Checklist
+
+- [x] **src/ contains all source files and challenge implementations**
+  - All 10 challenges implemented in `os-lab/src/`
+  - Demo programs: `fork_demo.c`, `exec_demo.c`, `pipe_demo.c`, `pipeline_demo.c`, `zombie_demo.c`
+  - Challenge programs: `ch1_single_fork.c` through `ch10_pool.c`
+  - Helper programs: `worker.c`, `ch4_exec_worker.c`
+
+- [x] **CMakeLists.txt builds all executables**
+  - Build system: CMake 3.5+
+  - All 15 executables configured and buildable
+  - Standard C11 compiler required
+
+- [ ] **lab_report.pdf contains screenshots**
+  - To be provided with screenshots of build and demo runs
+
+- [x] **Source code and GitHub repo link provided**
+  - Repository: <https://github.com/RibMc95/Lab-3-Fork-and-Exec>
+  - All source code in `os-lab/src/` directory
+
+- [x] **README.md with challenge completion notes**
+  - All 10 challenges listed with descriptions and acceptance criteria
+  - Build and run instructions provided
+  - Known issues documented (none identified)
