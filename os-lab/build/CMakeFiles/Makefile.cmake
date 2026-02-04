@@ -47,4 +47,11 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/zombie_demo.dir/DependInfo.cmake"
   "CMakeFiles/ch1_single_fork.dir/DependInfo.cmake"
   "CMakeFiles/ch2_multi_child.dir/DependInfo.cmake"
+  "CMakeFiles/ch3_exec_ls.dir/DependInfo.cmake"
+  "CMakeFiles/worker.dir/DependInfo.cmake"
+  "CMakeFiles/ch4_exec_worker.dir/DependInfo.cmake"
+  "CMakeFiles/ch5_exec_examples.dir/DependInfo.cmake"
+  "CMakeFiles/ch6_pipe_sum.dir/DependInfo.cmake"
+  "CMakeFiles/ch7_pipeline.dir/DependInfo.cmake"
+  "CMakeFiles/ch8_wait_nonblock.dir/DependInfo.cmake"
   )

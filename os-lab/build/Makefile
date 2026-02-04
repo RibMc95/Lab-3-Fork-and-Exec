@@ -207,6 +207,97 @@ ch2_multi_child/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch2_multi_child.dir/build.make CMakeFiles/ch2_multi_child.dir/build
 .PHONY : ch2_multi_child/fast
 
+#=============================================================================
+# Target rules for targets named ch3_exec_ls
+
+# Build rule for target.
+ch3_exec_ls: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch3_exec_ls
+.PHONY : ch3_exec_ls
+
+# fast build rule for target.
+ch3_exec_ls/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/build
+.PHONY : ch3_exec_ls/fast
+
+#=============================================================================
+# Target rules for targets named worker
+
+# Build rule for target.
+worker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 worker
+.PHONY : worker
+
+# fast build rule for target.
+worker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/build
+.PHONY : worker/fast
+
+#=============================================================================
+# Target rules for targets named ch4_exec_worker
+
+# Build rule for target.
+ch4_exec_worker: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch4_exec_worker
+.PHONY : ch4_exec_worker
+
+# fast build rule for target.
+ch4_exec_worker/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/build
+.PHONY : ch4_exec_worker/fast
+
+#=============================================================================
+# Target rules for targets named ch5_exec_examples
+
+# Build rule for target.
+ch5_exec_examples: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch5_exec_examples
+.PHONY : ch5_exec_examples
+
+# fast build rule for target.
+ch5_exec_examples/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/build
+.PHONY : ch5_exec_examples/fast
+
+#=============================================================================
+# Target rules for targets named ch6_pipe_sum
+
+# Build rule for target.
+ch6_pipe_sum: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch6_pipe_sum
+.PHONY : ch6_pipe_sum
+
+# fast build rule for target.
+ch6_pipe_sum/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/build
+.PHONY : ch6_pipe_sum/fast
+
+#=============================================================================
+# Target rules for targets named ch7_pipeline
+
+# Build rule for target.
+ch7_pipeline: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch7_pipeline
+.PHONY : ch7_pipeline
+
+# fast build rule for target.
+ch7_pipeline/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/build
+.PHONY : ch7_pipeline/fast
+
+#=============================================================================
+# Target rules for targets named ch8_wait_nonblock
+
+# Build rule for target.
+ch8_wait_nonblock: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch8_wait_nonblock
+.PHONY : ch8_wait_nonblock
+
+# fast build rule for target.
+ch8_wait_nonblock/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/build
+.PHONY : ch8_wait_nonblock/fast
+
 src/ch1_single_fork.o: src/ch1_single_fork.c.o
 .PHONY : src/ch1_single_fork.o
 
@@ -254,6 +345,150 @@ src/ch2_multi_child.s: src/ch2_multi_child.c.s
 src/ch2_multi_child.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch2_multi_child.dir/build.make CMakeFiles/ch2_multi_child.dir/src/ch2_multi_child.c.s
 .PHONY : src/ch2_multi_child.c.s
+
+src/ch3_exec_ls.o: src/ch3_exec_ls.c.o
+.PHONY : src/ch3_exec_ls.o
+
+# target to build an object file
+src/ch3_exec_ls.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/src/ch3_exec_ls.c.o
+.PHONY : src/ch3_exec_ls.c.o
+
+src/ch3_exec_ls.i: src/ch3_exec_ls.c.i
+.PHONY : src/ch3_exec_ls.i
+
+# target to preprocess a source file
+src/ch3_exec_ls.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/src/ch3_exec_ls.c.i
+.PHONY : src/ch3_exec_ls.c.i
+
+src/ch3_exec_ls.s: src/ch3_exec_ls.c.s
+.PHONY : src/ch3_exec_ls.s
+
+# target to generate assembly for a file
+src/ch3_exec_ls.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/src/ch3_exec_ls.c.s
+.PHONY : src/ch3_exec_ls.c.s
+
+src/ch4_exec_worker.o: src/ch4_exec_worker.c.o
+.PHONY : src/ch4_exec_worker.o
+
+# target to build an object file
+src/ch4_exec_worker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/src/ch4_exec_worker.c.o
+.PHONY : src/ch4_exec_worker.c.o
+
+src/ch4_exec_worker.i: src/ch4_exec_worker.c.i
+.PHONY : src/ch4_exec_worker.i
+
+# target to preprocess a source file
+src/ch4_exec_worker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/src/ch4_exec_worker.c.i
+.PHONY : src/ch4_exec_worker.c.i
+
+src/ch4_exec_worker.s: src/ch4_exec_worker.c.s
+.PHONY : src/ch4_exec_worker.s
+
+# target to generate assembly for a file
+src/ch4_exec_worker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/src/ch4_exec_worker.c.s
+.PHONY : src/ch4_exec_worker.c.s
+
+src/ch5_exec_examples.o: src/ch5_exec_examples.c.o
+.PHONY : src/ch5_exec_examples.o
+
+# target to build an object file
+src/ch5_exec_examples.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/src/ch5_exec_examples.c.o
+.PHONY : src/ch5_exec_examples.c.o
+
+src/ch5_exec_examples.i: src/ch5_exec_examples.c.i
+.PHONY : src/ch5_exec_examples.i
+
+# target to preprocess a source file
+src/ch5_exec_examples.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/src/ch5_exec_examples.c.i
+.PHONY : src/ch5_exec_examples.c.i
+
+src/ch5_exec_examples.s: src/ch5_exec_examples.c.s
+.PHONY : src/ch5_exec_examples.s
+
+# target to generate assembly for a file
+src/ch5_exec_examples.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/src/ch5_exec_examples.c.s
+.PHONY : src/ch5_exec_examples.c.s
+
+src/ch6_pipe_sum.o: src/ch6_pipe_sum.c.o
+.PHONY : src/ch6_pipe_sum.o
+
+# target to build an object file
+src/ch6_pipe_sum.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/src/ch6_pipe_sum.c.o
+.PHONY : src/ch6_pipe_sum.c.o
+
+src/ch6_pipe_sum.i: src/ch6_pipe_sum.c.i
+.PHONY : src/ch6_pipe_sum.i
+
+# target to preprocess a source file
+src/ch6_pipe_sum.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/src/ch6_pipe_sum.c.i
+.PHONY : src/ch6_pipe_sum.c.i
+
+src/ch6_pipe_sum.s: src/ch6_pipe_sum.c.s
+.PHONY : src/ch6_pipe_sum.s
+
+# target to generate assembly for a file
+src/ch6_pipe_sum.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/src/ch6_pipe_sum.c.s
+.PHONY : src/ch6_pipe_sum.c.s
+
+src/ch7_pipeline.o: src/ch7_pipeline.c.o
+.PHONY : src/ch7_pipeline.o
+
+# target to build an object file
+src/ch7_pipeline.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/src/ch7_pipeline.c.o
+.PHONY : src/ch7_pipeline.c.o
+
+src/ch7_pipeline.i: src/ch7_pipeline.c.i
+.PHONY : src/ch7_pipeline.i
+
+# target to preprocess a source file
+src/ch7_pipeline.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/src/ch7_pipeline.c.i
+.PHONY : src/ch7_pipeline.c.i
+
+src/ch7_pipeline.s: src/ch7_pipeline.c.s
+.PHONY : src/ch7_pipeline.s
+
+# target to generate assembly for a file
+src/ch7_pipeline.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/src/ch7_pipeline.c.s
+.PHONY : src/ch7_pipeline.c.s
+
+src/ch8_wait_nonblock.o: src/ch8_wait_nonblock.c.o
+.PHONY : src/ch8_wait_nonblock.o
+
+# target to build an object file
+src/ch8_wait_nonblock.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/src/ch8_wait_nonblock.c.o
+.PHONY : src/ch8_wait_nonblock.c.o
+
+src/ch8_wait_nonblock.i: src/ch8_wait_nonblock.c.i
+.PHONY : src/ch8_wait_nonblock.i
+
+# target to preprocess a source file
+src/ch8_wait_nonblock.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/src/ch8_wait_nonblock.c.i
+.PHONY : src/ch8_wait_nonblock.c.i
+
+src/ch8_wait_nonblock.s: src/ch8_wait_nonblock.c.s
+.PHONY : src/ch8_wait_nonblock.s
+
+# target to generate assembly for a file
+src/ch8_wait_nonblock.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/src/ch8_wait_nonblock.c.s
+.PHONY : src/ch8_wait_nonblock.c.s
 
 src/exec_demo.o: src/exec_demo.c.o
 .PHONY : src/exec_demo.o
@@ -351,6 +586,30 @@ src/pipeline_demo.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pipeline_demo.dir/build.make CMakeFiles/pipeline_demo.dir/src/pipeline_demo.c.s
 .PHONY : src/pipeline_demo.c.s
 
+src/worker.o: src/worker.c.o
+.PHONY : src/worker.o
+
+# target to build an object file
+src/worker.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/src/worker.c.o
+.PHONY : src/worker.c.o
+
+src/worker.i: src/worker.c.i
+.PHONY : src/worker.i
+
+# target to preprocess a source file
+src/worker.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/src/worker.c.i
+.PHONY : src/worker.c.i
+
+src/worker.s: src/worker.c.s
+.PHONY : src/worker.s
+
+# target to generate assembly for a file
+src/worker.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/src/worker.c.s
+.PHONY : src/worker.c.s
+
 src/zombie_demo.o: src/zombie_demo.c.o
 .PHONY : src/zombie_demo.o
 
@@ -385,10 +644,17 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... ch1_single_fork"
 	@echo "... ch2_multi_child"
+	@echo "... ch3_exec_ls"
+	@echo "... ch4_exec_worker"
+	@echo "... ch5_exec_examples"
+	@echo "... ch6_pipe_sum"
+	@echo "... ch7_pipeline"
+	@echo "... ch8_wait_nonblock"
 	@echo "... exec_demo"
 	@echo "... fork_demo"
 	@echo "... pipe_demo"
 	@echo "... pipeline_demo"
+	@echo "... worker"
 	@echo "... zombie_demo"
 	@echo "... src/ch1_single_fork.o"
 	@echo "... src/ch1_single_fork.i"
@@ -396,6 +662,24 @@ help:
 	@echo "... src/ch2_multi_child.o"
 	@echo "... src/ch2_multi_child.i"
 	@echo "... src/ch2_multi_child.s"
+	@echo "... src/ch3_exec_ls.o"
+	@echo "... src/ch3_exec_ls.i"
+	@echo "... src/ch3_exec_ls.s"
+	@echo "... src/ch4_exec_worker.o"
+	@echo "... src/ch4_exec_worker.i"
+	@echo "... src/ch4_exec_worker.s"
+	@echo "... src/ch5_exec_examples.o"
+	@echo "... src/ch5_exec_examples.i"
+	@echo "... src/ch5_exec_examples.s"
+	@echo "... src/ch6_pipe_sum.o"
+	@echo "... src/ch6_pipe_sum.i"
+	@echo "... src/ch6_pipe_sum.s"
+	@echo "... src/ch7_pipeline.o"
+	@echo "... src/ch7_pipeline.i"
+	@echo "... src/ch7_pipeline.s"
+	@echo "... src/ch8_wait_nonblock.o"
+	@echo "... src/ch8_wait_nonblock.i"
+	@echo "... src/ch8_wait_nonblock.s"
 	@echo "... src/exec_demo.o"
 	@echo "... src/exec_demo.i"
 	@echo "... src/exec_demo.s"
@@ -408,6 +692,9 @@ help:
 	@echo "... src/pipeline_demo.o"
 	@echo "... src/pipeline_demo.i"
 	@echo "... src/pipeline_demo.s"
+	@echo "... src/worker.o"
+	@echo "... src/worker.i"
+	@echo "... src/worker.s"
 	@echo "... src/zombie_demo.o"
 	@echo "... src/zombie_demo.i"
 	@echo "... src/zombie_demo.s"

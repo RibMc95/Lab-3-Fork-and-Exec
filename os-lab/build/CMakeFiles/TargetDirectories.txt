@@ -5,5 +5,12 @@
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/zombie_demo.dir
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch1_single_fork.dir
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch2_multi_child.dir
+/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch3_exec_ls.dir
+/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/worker.dir
+/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch4_exec_worker.dir
+/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch5_exec_examples.dir
+/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch6_pipe_sum.dir
+/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch7_pipeline.dir
+/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch8_wait_nonblock.dir
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/edit_cache.dir
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/rebuild_cache.dir
