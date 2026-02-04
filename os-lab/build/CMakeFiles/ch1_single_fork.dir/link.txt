@@ -1,0 +1,1 @@
+/usr/bin/cc CMakeFiles/ch1_single_fork.dir/src/ch1_single_fork.c.o -o ch1_single_fork 
