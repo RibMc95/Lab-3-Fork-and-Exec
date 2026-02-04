@@ -12,5 +12,7 @@
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch6_pipe_sum.dir
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch7_pipeline.dir
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch8_wait_nonblock.dir
+/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch9_zombie.dir
+/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/ch10_pool.dir
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/edit_cache.dir
 /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles/rebuild_cache.dir

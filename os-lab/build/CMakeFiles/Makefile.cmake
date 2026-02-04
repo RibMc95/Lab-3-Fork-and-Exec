@@ -54,4 +54,6 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/ch6_pipe_sum.dir/DependInfo.cmake"
   "CMakeFiles/ch7_pipeline.dir/DependInfo.cmake"
   "CMakeFiles/ch8_wait_nonblock.dir/DependInfo.cmake"
+  "CMakeFiles/ch9_zombie.dir/DependInfo.cmake"
+  "CMakeFiles/ch10_pool.dir/DependInfo.cmake"
   )

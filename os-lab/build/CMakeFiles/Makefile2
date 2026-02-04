@@ -77,6 +77,8 @@ all: CMakeFiles/ch5_exec_examples.dir/all
 all: CMakeFiles/ch6_pipe_sum.dir/all
 all: CMakeFiles/ch7_pipeline.dir/all
 all: CMakeFiles/ch8_wait_nonblock.dir/all
+all: CMakeFiles/ch9_zombie.dir/all
+all: CMakeFiles/ch10_pool.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -98,6 +100,8 @@ clean: CMakeFiles/ch5_exec_examples.dir/clean
 clean: CMakeFiles/ch6_pipe_sum.dir/clean
 clean: CMakeFiles/ch7_pipeline.dir/clean
 clean: CMakeFiles/ch8_wait_nonblock.dir/clean
+clean: CMakeFiles/ch9_zombie.dir/clean
+clean: CMakeFiles/ch10_pool.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -107,7 +111,7 @@ clean: CMakeFiles/ch8_wait_nonblock.dir/clean
 CMakeFiles/fork_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fork_demo.dir/build.make CMakeFiles/fork_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/fork_demo.dir/build.make CMakeFiles/fork_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=19,20 "Built target fork_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=23,24 "Built target fork_demo"
 .PHONY : CMakeFiles/fork_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -133,7 +137,7 @@ CMakeFiles/fork_demo.dir/clean:
 CMakeFiles/exec_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec_demo.dir/build.make CMakeFiles/exec_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/exec_demo.dir/build.make CMakeFiles/exec_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=17,18 "Built target exec_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=21,22 "Built target exec_demo"
 .PHONY : CMakeFiles/exec_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -159,7 +163,7 @@ CMakeFiles/exec_demo.dir/clean:
 CMakeFiles/pipe_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pipe_demo.dir/build.make CMakeFiles/pipe_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pipe_demo.dir/build.make CMakeFiles/pipe_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=21,22 "Built target pipe_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=25,26 "Built target pipe_demo"
 .PHONY : CMakeFiles/pipe_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -185,7 +189,7 @@ CMakeFiles/pipe_demo.dir/clean:
 CMakeFiles/pipeline_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pipeline_demo.dir/build.make CMakeFiles/pipeline_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/pipeline_demo.dir/build.make CMakeFiles/pipeline_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=23,24 "Built target pipeline_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=27,28 "Built target pipeline_demo"
 .PHONY : CMakeFiles/pipeline_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -211,7 +215,7 @@ CMakeFiles/pipeline_demo.dir/clean:
 CMakeFiles/zombie_demo.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zombie_demo.dir/build.make CMakeFiles/zombie_demo.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/zombie_demo.dir/build.make CMakeFiles/zombie_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=27,28 "Built target zombie_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=31,32 "Built target zombie_demo"
 .PHONY : CMakeFiles/zombie_demo.dir/all
 
 # Build rule for subdir invocation for target.
@@ -237,7 +241,7 @@ CMakeFiles/zombie_demo.dir/clean:
 CMakeFiles/ch1_single_fork.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_single_fork.dir/build.make CMakeFiles/ch1_single_fork.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch1_single_fork.dir/build.make CMakeFiles/ch1_single_fork.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=1,2 "Built target ch1_single_fork"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=3,4 "Built target ch1_single_fork"
 .PHONY : CMakeFiles/ch1_single_fork.dir/all
 
 # Build rule for subdir invocation for target.
@@ -263,7 +267,7 @@ CMakeFiles/ch1_single_fork.dir/clean:
 CMakeFiles/ch2_multi_child.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch2_multi_child.dir/build.make CMakeFiles/ch2_multi_child.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch2_multi_child.dir/build.make CMakeFiles/ch2_multi_child.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=3,4 "Built target ch2_multi_child"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=5,6 "Built target ch2_multi_child"
 .PHONY : CMakeFiles/ch2_multi_child.dir/all
 
 # Build rule for subdir invocation for target.
@@ -289,7 +293,7 @@ CMakeFiles/ch2_multi_child.dir/clean:
 CMakeFiles/ch3_exec_ls.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch3_exec_ls.dir/build.make CMakeFiles/ch3_exec_ls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=5,6 "Built target ch3_exec_ls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=7,8 "Built target ch3_exec_ls"
 .PHONY : CMakeFiles/ch3_exec_ls.dir/all
 
 # Build rule for subdir invocation for target.
@@ -315,7 +319,7 @@ CMakeFiles/ch3_exec_ls.dir/clean:
 CMakeFiles/worker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/worker.dir/build.make CMakeFiles/worker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=25,26 "Built target worker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=29,30 "Built target worker"
 .PHONY : CMakeFiles/worker.dir/all
 
 # Build rule for subdir invocation for target.
@@ -341,7 +345,7 @@ CMakeFiles/worker.dir/clean:
 CMakeFiles/ch4_exec_worker.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch4_exec_worker.dir/build.make CMakeFiles/ch4_exec_worker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=7,8 "Built target ch4_exec_worker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=9,10 "Built target ch4_exec_worker"
 .PHONY : CMakeFiles/ch4_exec_worker.dir/all
 
 # Build rule for subdir invocation for target.
@@ -367,7 +371,7 @@ CMakeFiles/ch4_exec_worker.dir/clean:
 CMakeFiles/ch5_exec_examples.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch5_exec_examples.dir/build.make CMakeFiles/ch5_exec_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=9,10 "Built target ch5_exec_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=11,12 "Built target ch5_exec_examples"
 .PHONY : CMakeFiles/ch5_exec_examples.dir/all
 
 # Build rule for subdir invocation for target.
@@ -393,7 +397,7 @@ CMakeFiles/ch5_exec_examples.dir/clean:
 CMakeFiles/ch6_pipe_sum.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch6_pipe_sum.dir/build.make CMakeFiles/ch6_pipe_sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=11,12 "Built target ch6_pipe_sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=13,14 "Built target ch6_pipe_sum"
 .PHONY : CMakeFiles/ch6_pipe_sum.dir/all
 
 # Build rule for subdir invocation for target.
@@ -419,7 +423,7 @@ CMakeFiles/ch6_pipe_sum.dir/clean:
 CMakeFiles/ch7_pipeline.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch7_pipeline.dir/build.make CMakeFiles/ch7_pipeline.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=13,14 "Built target ch7_pipeline"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=15,16 "Built target ch7_pipeline"
 .PHONY : CMakeFiles/ch7_pipeline.dir/all
 
 # Build rule for subdir invocation for target.
@@ -445,7 +449,7 @@ CMakeFiles/ch7_pipeline.dir/clean:
 CMakeFiles/ch8_wait_nonblock.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=15,16 "Built target ch8_wait_nonblock"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=17,18 "Built target ch8_wait_nonblock"
 .PHONY : CMakeFiles/ch8_wait_nonblock.dir/all
 
 # Build rule for subdir invocation for target.
@@ -463,6 +467,58 @@ ch8_wait_nonblock: CMakeFiles/ch8_wait_nonblock.dir/rule
 CMakeFiles/ch8_wait_nonblock.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/clean
 .PHONY : CMakeFiles/ch8_wait_nonblock.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch9_zombie.dir
+
+# All Build rule for target.
+CMakeFiles/ch9_zombie.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=19,20 "Built target ch9_zombie"
+.PHONY : CMakeFiles/ch9_zombie.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch9_zombie.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ch9_zombie.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch9_zombie.dir/rule
+
+# Convenience name for target.
+ch9_zombie: CMakeFiles/ch9_zombie.dir/rule
+.PHONY : ch9_zombie
+
+# clean rule for target.
+CMakeFiles/ch9_zombie.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/clean
+.PHONY : CMakeFiles/ch9_zombie.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ch10_pool.dir
+
+# All Build rule for target.
+CMakeFiles/ch10_pool.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles --progress-num=1,2 "Built target ch10_pool"
+.PHONY : CMakeFiles/ch10_pool.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ch10_pool.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ch10_pool.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /workspaces/Lab-3-Fork-and-Exec/os-lab/build/CMakeFiles 0
+.PHONY : CMakeFiles/ch10_pool.dir/rule
+
+# Convenience name for target.
+ch10_pool: CMakeFiles/ch10_pool.dir/rule
+.PHONY : ch10_pool
+
+# clean rule for target.
+CMakeFiles/ch10_pool.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/clean
+.PHONY : CMakeFiles/ch10_pool.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

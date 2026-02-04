@@ -298,6 +298,56 @@ ch8_wait_nonblock/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/build
 .PHONY : ch8_wait_nonblock/fast
 
+#=============================================================================
+# Target rules for targets named ch9_zombie
+
+# Build rule for target.
+ch9_zombie: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch9_zombie
+.PHONY : ch9_zombie
+
+# fast build rule for target.
+ch9_zombie/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/build
+.PHONY : ch9_zombie/fast
+
+#=============================================================================
+# Target rules for targets named ch10_pool
+
+# Build rule for target.
+ch10_pool: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ch10_pool
+.PHONY : ch10_pool
+
+# fast build rule for target.
+ch10_pool/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/build
+.PHONY : ch10_pool/fast
+
+src/ch10_pool.o: src/ch10_pool.c.o
+.PHONY : src/ch10_pool.o
+
+# target to build an object file
+src/ch10_pool.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/src/ch10_pool.c.o
+.PHONY : src/ch10_pool.c.o
+
+src/ch10_pool.i: src/ch10_pool.c.i
+.PHONY : src/ch10_pool.i
+
+# target to preprocess a source file
+src/ch10_pool.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/src/ch10_pool.c.i
+.PHONY : src/ch10_pool.c.i
+
+src/ch10_pool.s: src/ch10_pool.c.s
+.PHONY : src/ch10_pool.s
+
+# target to generate assembly for a file
+src/ch10_pool.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch10_pool.dir/build.make CMakeFiles/ch10_pool.dir/src/ch10_pool.c.s
+.PHONY : src/ch10_pool.c.s
+
 src/ch1_single_fork.o: src/ch1_single_fork.c.o
 .PHONY : src/ch1_single_fork.o
 
@@ -490,6 +540,30 @@ src/ch8_wait_nonblock.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch8_wait_nonblock.dir/build.make CMakeFiles/ch8_wait_nonblock.dir/src/ch8_wait_nonblock.c.s
 .PHONY : src/ch8_wait_nonblock.c.s
 
+src/ch9_zombie.o: src/ch9_zombie.c.o
+.PHONY : src/ch9_zombie.o
+
+# target to build an object file
+src/ch9_zombie.c.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/src/ch9_zombie.c.o
+.PHONY : src/ch9_zombie.c.o
+
+src/ch9_zombie.i: src/ch9_zombie.c.i
+.PHONY : src/ch9_zombie.i
+
+# target to preprocess a source file
+src/ch9_zombie.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/src/ch9_zombie.c.i
+.PHONY : src/ch9_zombie.c.i
+
+src/ch9_zombie.s: src/ch9_zombie.c.s
+.PHONY : src/ch9_zombie.s
+
+# target to generate assembly for a file
+src/ch9_zombie.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ch9_zombie.dir/build.make CMakeFiles/ch9_zombie.dir/src/ch9_zombie.c.s
+.PHONY : src/ch9_zombie.c.s
+
 src/exec_demo.o: src/exec_demo.c.o
 .PHONY : src/exec_demo.o
 
@@ -642,6 +716,7 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
+	@echo "... ch10_pool"
 	@echo "... ch1_single_fork"
 	@echo "... ch2_multi_child"
 	@echo "... ch3_exec_ls"
@@ -650,12 +725,16 @@ help:
 	@echo "... ch6_pipe_sum"
 	@echo "... ch7_pipeline"
 	@echo "... ch8_wait_nonblock"
+	@echo "... ch9_zombie"
 	@echo "... exec_demo"
 	@echo "... fork_demo"
 	@echo "... pipe_demo"
 	@echo "... pipeline_demo"
 	@echo "... worker"
 	@echo "... zombie_demo"
+	@echo "... src/ch10_pool.o"
+	@echo "... src/ch10_pool.i"
+	@echo "... src/ch10_pool.s"
 	@echo "... src/ch1_single_fork.o"
 	@echo "... src/ch1_single_fork.i"
 	@echo "... src/ch1_single_fork.s"
@@ -680,6 +759,9 @@ help:
 	@echo "... src/ch8_wait_nonblock.o"
 	@echo "... src/ch8_wait_nonblock.i"
 	@echo "... src/ch8_wait_nonblock.s"
+	@echo "... src/ch9_zombie.o"
+	@echo "... src/ch9_zombie.i"
+	@echo "... src/ch9_zombie.s"
 	@echo "... src/exec_demo.o"
 	@echo "... src/exec_demo.i"
 	@echo "... src/exec_demo.s"
